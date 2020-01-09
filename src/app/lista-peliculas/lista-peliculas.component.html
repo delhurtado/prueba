@@ -1,0 +1,17 @@
+<!-- MOSTRAR LISTADO DE PELÍCULAS POR TÍTULO -->
+
+<div class="listaPeliculas">
+    <div class="peliculas">
+        {{ resena.display_title }}     
+        
+    </div>
+    
+<!-- SECCIÓN DE BOTÓN POR PELÍCULA -->
+<div class="button">
+        <button (click)= "verDetallePelicula(resena)" routerLink="/detalle" routerLinkActive="active" >Ver detalle</button>
+    </div>
+</div>
+
+<!-- FUENTE -->
+    
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet"> 

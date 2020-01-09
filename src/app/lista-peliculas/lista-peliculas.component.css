@@ -1,0 +1,33 @@
+
+.listaPeliculas {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+}
+.peliculas, .button {
+    flex: 1;
+}
+
+.peliculas {
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    background-color: lightgrey;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.button {
+    justify-content: center;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(192, 220, 236);
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+button:hover{
+    background-color: rgb(153, 153, 221);
+}

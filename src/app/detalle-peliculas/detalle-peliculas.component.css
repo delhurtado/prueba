@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(192, 220, 236);
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+button:hover{
+    background-color: rgb(153, 153, 221);
+}
